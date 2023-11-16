@@ -7,28 +7,66 @@ Group members:
  -#THIS IS OUR REPORT FROM THIS PROJECT
  [Group04_DATA SCIENCE PROGRAMMING REPORT.pdf](https://github.com/hafizsem/DSP-project-Library-Catalog/files/7940106/Group04_DATA.SCIENCE.PROGRAMMING.REPORT.pdf)
  
-This project sole purpose is to create a perfect manageable system for librarian to keep track 
-and organize the amount of data its received on daily basis, when an user preferably called the 
-librarian is using the library catalogue system all the feature of this program can be utilized by the 
-librarian
-     The feature provided in the library catalog system
-     1.) Searching section, the librarian can directly insert the book ISBN or the book tittle that the library 
-         visitor is seeking for to identify the book info
-     2.) Status checking, post searching the book in searching section, the book status will be shown either 
-         the book is available for borrowing or restricted to leave the library
-     3.) Adding new book, using SQL lite as the data retainer, the librarian can straightforward adding new 
-         book into the database
-     4.) Borrow, the librarian can enter the data of the library member borrowed book inside the system 
-         database
-     5.) Return, library members can return the book they borrow by consulting the librarian, if the book is 
-         not returned prior the promised return date, a small fine will automatically calculated
-     6.) Register new user, the librarian can help new library visitor to be a member of the library so that 
-         they can use privilege of borrowing the library book
+# Library Catalog System
 
-     1- Insert more complete book info:-
-        ● Put the location inquiry of books such as arranged by genre, input the author 
-     3- Take account of multiple copies of the same book.
-     3- Insert the front cover of the book when the user wants to search.
-     4- Insert fine by sending the email to users who are overdue the deadline.
+## Overview
+
+This project aims to create a comprehensive and easily manageable system for librarians to efficiently organize and track the library's daily data. The system provides a user-friendly interface for librarians to perform various tasks related to managing the library catalog.
+
+## Features
+
+### 1. Searching Section
+
+Librarians can easily search for books by entering either the book ISBN or title. This feature enables quick identification of book information, streamlining the process for library visitors.
+
+### 2. Status Checking
+
+After searching for a book, the system displays its status, indicating whether the book is available for borrowing or restricted to remain in the library.
+
+### 3. Adding New Books
+
+Using SQLite as the data retainer, librarians can effortlessly add new books to the database. The system ensures a smooth process for expanding the library collection.
+
+### 4. Borrowing
+
+Librarians can enter relevant data for library members borrowing books, keeping track of who has borrowed what and when.
+
+### 5. Returning
+
+Library members can return borrowed books through the librarian. If a book is not returned by the promised return date, the system automatically calculates a small fine.
+
+### 6. Registering New Users
+
+Librarians can assist new library visitors in becoming members, providing them with the privilege of borrowing library books.
+
+### Additional Enhancements
+
+1. **Insert More Complete Book Info:**
+   - The system allows librarians to input additional book information such as the location arranged by genre and author details.
+
+2. **Handling Multiple Copies:**
+   - The system accounts for multiple copies of the same book, ensuring accurate inventory management.
+
+3. **Inserting Front Covers:**
+   - Librarians can upload and display front covers of books, enhancing the visual experience for users during the search.
+
+4. **Fine Management via Email:**
+   - The system automatically sends email notifications to users who have overdue books, including details of fines incurred.
+
+## Getting Started
+
+To deploy and use the Library Catalog System, follow the steps outlined in the [Installation Guide](#) and refer to the [User Manual](#) for detailed instructions on using each feature.
+
+## Contributing
+
+If you would like to contribute to the development of the Library Catalog System, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+We would like to express our gratitude to the open-source community for their invaluable contributions and support in making this project possible.
 
          
